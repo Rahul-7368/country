@@ -19,7 +19,7 @@ const App = () => {
       }
     };
 
-    fetchCountries();
+    fetchCountries()
   }, []);
 
   const handleSearch = (e) => {
@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Countries Search</h1>
+      {/* <h1>Countries Search</h1> */}
       <input
         type="text"
         placeholder="Search country..."
